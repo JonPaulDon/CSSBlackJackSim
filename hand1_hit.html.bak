@@ -49,7 +49,7 @@
 	
 	<!-- Dealer Bust -->
 	<div class="card6_f">
-		<img class="turncard6_f" src="./imgs/hearts_9.png" alt="card back">
+		<img class="turncard6_f" src="./imgs/_9.png" alt="card back">
 	</div>
 	<div class="card6_b">
 		<img class="turncard6_b" src="./imgs/card_back_red.png" alt="card back">

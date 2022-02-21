@@ -38,7 +38,7 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4_f">
-		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="card back">
+		<img class="turncard4_f" src="./imgs/card_9.png" alt="card back">
 	</div>
 	<div class="card4_b">
 		<img class="turncard4_b" src="./imgs/card_back_red.png" alt="card back">

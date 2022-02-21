@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-image:url("../imgs/background3.jpg");
 	color: white;
 }
 
@@ -30,22 +30,22 @@ div.deck_card4 {
 
 /*This is the left card player side*/
 .card1 {
-	top: 400px;
-	right: 800px;
+	top: 550px;
+	right: 900px;
 	position: absolute;
 }
 
 /*This is the right card player side*/
 .card2 {
-	top: 400px;
+	top: 550px;
 	right: 600px;
 	position: absolute;
 }
 
 /*This is the for left card dealer side Flip*/
 .card3 {
-	top: 100px;
-	right: 800px;
+	top: 60px;
+	right: 900px;
 	position: absolute;
 }
 
@@ -60,7 +60,7 @@ div.deck_card4 {
 	
 /*This is for right card dealer side*/
 .card4 {
-	top: 100px;
+	top: 60px;
 	right: 600px;
 	position: absolute;
 }
@@ -74,15 +74,15 @@ div.deck_card4 {
 }
 
 .card5_f {
-	top: 400px;
-	right: 1000px;
+	top: 550px;
+	right: 1200px;
 	position: absolute;
 }
 
 @keyframes card5 {
 	from {top: 80px;}
-	to {top: 400px;
-	right: 1000px;
+	to {top: 550px;
+	right: 1200px;
 	transform: rotate(180deg);}
 }
 
@@ -104,15 +104,15 @@ div.deck_card4 {
 }
 
 .card6_f {
-	top: 100px;
-	right: 1000px;
+	top: 60px;
+	right: 1200px;
 	position: absolute;
 }
 
 @keyframes card6 {
 	from {top: 80px;}
-	to {top: 100px;
-	right: 1000px;
+	to {top: 60px;
+	right: 1200px;
 	transform: rotate(180deg);}
 }
 

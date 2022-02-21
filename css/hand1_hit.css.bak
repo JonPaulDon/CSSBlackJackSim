@@ -50,12 +50,12 @@ div.deck_card4 {
 }
 
 .turncard3_b {
-	animation: turncard_b 1s forwards;
+	animation: turncard_b 1s 8s forwards;
 }
 
 .turncard3_f {
 	transform: rotateY(270deg);
-	animation: turncard_f 1s 0.8s forwards;
+	animation: turncard_f 1s 8.8s forwards;
 }
 	
 /*This is for right card dealer side*/
@@ -63,6 +63,66 @@ div.deck_card4 {
 	top: 60px;
 	right: 600px;
 	position: absolute;
+}
+
+/* This is for the Final Hit card */
+.card5_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card5 2s forwards;
+}
+
+.card5_f {
+	top: 550px;
+	right: 1200px;
+	position: absolute;
+}
+
+@keyframes card5 {
+	from {top: 80px;}
+	to {top: 550px;
+	right: 1200px;
+	transform: rotate(180deg);}
+}
+
+.turncard5_b {
+	animation: turncard_b 1s 2s forwards;
+}
+
+.turncard5_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 2.8s forwards;
+}
+
+/*This is for the Final Dealer card */
+.card6_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card6 2s 10s forwards;
+}
+
+.card6_f {
+	top: 60px;
+	right: 1200px;
+	position: absolute;
+}
+
+@keyframes card6 {
+	from {top: 80px;}
+	to {top: 100px;
+	right: 1200px;
+	transform: rotate(180deg);}
+}
+
+.turncard6_b {
+	animation: turncard_b 1s 12s forwards;
+}
+
+.turncard6_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 12.8s forwards;
 }
 
 /* Flip Rules */
@@ -85,7 +145,7 @@ div.deck_card4 {
 	border: 2px solid white;
 	opacity: 0;
 	position: absolute;
-	animation: talk 1s 3s forwards;
+	animation: talk 1s 4s forwards;
 }
 
 .Ptalk {
@@ -96,7 +156,7 @@ div.deck_card4 {
 	border: 2px solid white;
 	opacity: 0;
 	position: absolute;
-	animation: talk 1s 7s forwards;
+	animation: talk 1s 14s forwards;
 }
 
 .Choice {
@@ -107,7 +167,7 @@ div.deck_card4 {
 	border: 2px solid white;
 	opacity: 0;
 	position: absolute;
-	animation: talk 1s 11s forwards;
+	animation: talk 1s 18s forwards;
 }
 
 @keyframes talk {

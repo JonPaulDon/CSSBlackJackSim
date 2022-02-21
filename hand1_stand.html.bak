@@ -21,7 +21,7 @@
 	
 	<!-- Dealer card on the left -->
 	<div class="card3">
-		<img class="turncard3_f" src="./imgs/clubs_9.png" alt="card back">
+		<img class="turncard3_f" src="./imgs/card_9.png" alt="card back">
 	</div>
 	<div class="card3">
 		<img class="turncard3_b" src="./imgs/card_back_red.png" alt="card back">

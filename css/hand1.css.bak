@@ -1,6 +1,6 @@
 body {
 	background-image:url("../imgs/background3.jpg");
-	color:white;
+	color:black;
 }
 
 /*This is the placeholder deck made of a bunch of images*/
