@@ -1,6 +1,6 @@
 body {
 	background-image:url("../imgs/background3.jpg");
-	color:black;
+	color:white;
 }
 
 /*This is the placeholder deck made of a bunch of images*/
@@ -145,20 +145,27 @@ div.deck_card4 {
 }
 
 /* This is for the example talking */
-.Dtalk {
-	top: 20px;
-	left: 200px;
-	width: 200px;
-	height: auto;
-	border: 2px solid white;
-	opacity: 0;
-	position: absolute;
-	animation: talk 1s 14s forwards;
+.dealerWindow {
+	
+	background-image:url("../imgs/bush.png");
+	
+	
 }
+.textWindow {
+	background-image:url("../imgs/moroccan-flower-dark.png");
+	border: 2px solid white;
+	
+}
+.Dtalk {
+	
+	opacity: 0;
+	
+	animation: talk 5s 14s forwards;
+}
+
 
 .Ptalk {
 	bottom: 20px;
-	left: 200px;
 	width: 200px;
 	height: auto;
 	border: 2px solid white;

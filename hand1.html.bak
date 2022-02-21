@@ -38,18 +38,28 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4_f">
-		<img class="turncard4_f" src="./imgs/card_9.png" alt="card back">
+		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="card back">
 	</div>
 	<div class="card4_b">
 		<img class="turncard4_b" src="./imgs/card_back_red.png" alt="card back">
 	</div>
 	
 	<!-- Dealer asks if you want to hit or stand -->
-	<div class="Dtalk">
-		<p>Dealer: Doesn't look too good. I'm guessing you'll probably want to hit, but I'll ask for posterities sake. You gonna Hit or Stand?</p>
+	<div class="dealerWindow">
+		<div>
+		<img src="./imgs/StandingDealer.gif" style="vertical-align:middle;" alt="dealer pic">
+		</div>
+		<div class="textWindow">
+			<div class="Dtalk">
+			<p>Dealer: Doesn't look too good. I'm guessing you'll probably want to hit, but I'll ask for posterities sake. You gonna Hit or Stand?</p>
+			</div>
+		</div>
 	</div>
+	<img src="./imgs/StandingDealer.gif" alt="dealer pic">
+	
 	
 	<!-- Player makes a comment on his hand -->
+	
 	<div class="Ptalk">
 		<p>Player: He's right, a hit makes the most amount of sense right now. But it might be funny to just stand for no real reason. What do you think player?</p>
 	</div>
