@@ -5,7 +5,7 @@
 	<title>You Hit!</title>
 	
 	<!-- CSS linked -->
-	<link rel="stylesheet" type="text/css" href="./css/hand1_hit.css">
+	<link rel="stylesheet" type="text/css" href="./css/hand3_hit.css">
 </head>
 <body>
 	
@@ -17,17 +17,17 @@
 	
 	<!-- Player card on the left -->
 	<div class="card1">
-		<img src="./imgs/hearts_7.png" alt="Player card left">
+		<img src="./imgs/spades_ace_simple.png" alt="Player card left">
 	</div>
 	
 	<!-- Player card on the right -->
 	<div class="card2">
-		<img src="./imgs/clubs_3.png" alt="Player card right">
+		<img src="./imgs/spades_jack.png" alt="Player card right">
 	</div>
 	
 	<!-- Final Player Card after Hit -->
 	<div class="card5_f">
-		<img class="turncard5_f" src="./imgs/clubs_ace.png" alt="Player card after hit">
+		<img class="turncard5_f" src="./imgs/clubs_2.png" alt="Player card hit">
 	</div>
 	<div class="card5_b">
 		<img class="turncard5_b" src="./imgs/card_back_red.png" alt="card back">
@@ -36,7 +36,7 @@
 	
 	<!-- Dealer card on the left -->
 	<div class="card3">
-		<img class="turncard3_f" src="./imgs/clubs_9.png" alt="Dealer card left">
+		<img class="turncard3_f" src="./imgs/diamonds_2.png" alt="Dealer card left">
 	</div>
 	<div class="card3">
 		<img class="turncard3_b" src="./imgs/card_back_red.png" alt="card back">
@@ -44,12 +44,12 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4">
-		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="Dealer card right">
+		<img class="turncard4_f" src="./imgs/clubs_10.png" alt="Dealer card right">
 	</div>
 	
 	<!-- Dealer Bust -->
 	<div class="card6_f">
-		<img class="turncard6_f" src="./imgs/hearts_9.png" alt="Dealer card hit">
+		<img class="turncard6_f" src="./imgs/hearts_7.png" alt="Dealer card hit">
 	</div>
 	<div class="card6_b">
 		<img class="turncard6_b" src="./imgs/card_back_red.png" alt="card back">
@@ -89,6 +89,5 @@
 			</p>
 		</div>
 	</div>
-	
 </body>
 </html>

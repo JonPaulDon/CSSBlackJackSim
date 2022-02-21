@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	
+	<!-- CSS linked -->
+	<link rel="stylesheet" type="text/css" href="./css/endscreen.css">
+</head>
+<body>
+	
+	<!-- Can be replaced by a single image of a deck -->
+	<div class="deck_card1"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card2"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card3"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card4"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	
+
+	
+	<!-- Dealer asks if you want to hit or stand -->
+
+	
+	<div class="welcomeWindow">
+		<div class="textWindow">
+		Leader’s Name:SK MD Navidul Haque<br>
+		Project Name:BlackJack Interface <br>
+		Description: The user will play 3 scripted games of blackjack and will be able to choose between "hit" and "stand" in each game <br>
+		Team Members: Dongieux, Jon Paul (Formatting and aligning elements,Sequencing animations,finding images for cards, dealer and board, Dealer window <br>
+		Haque, SK (Animating moving the cards, flipping the cards, and the dealer changing expressions, creating the powerpoint presentation)<br>
+		<a href="./index.html"><input type="submit" value="Restart"/>
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>

@@ -1,6 +1,6 @@
 body {
 	background-image:url("../imgs/background3.jpg");
-	color:white;
+	color: white;
 }
 
 /*This is the placeholder deck made of a bunch of images*/
@@ -28,112 +28,104 @@ div.deck_card4 {
 	position: absolute;
 }
 
-/*This is the movement and flip of the left card player side*/
-.card1_b {
-	top: 80px;
-	right: 260px;
-	position: absolute;
-	animation: card1move 2s forwards;
-}
-
-.card1_f {
+/*This is the left card player side*/
+.card1 {
 	top: 550px;
 	right: 900px;
 	position: absolute;
 }
 
-@keyframes card1move {
-	from {top: 80px;}
-	to {top: 550px;
-	right: 900px;
-	transform: rotate(180deg);}
+/*This is the right card player side*/
+.card2 {
+	top: 550px;
+	right: 600px;
+	position: absolute;
 }
-	
-.turncard1_b {
+
+/*This is the for left card dealer side Flip*/
+.card3 {
+	top: 60px;
+	right: 900px;
+	position: absolute;
+}
+
+.turncard3_b {
 	animation: turncard_b 1s 8s forwards;
 }
 
-.turncard1_f {
+.turncard3_f {
 	transform: rotateY(270deg);
 	animation: turncard_f 1s 8.8s forwards;
 }
-
-/*This is the movement and flip of the right card player side*/
-.card2_b {
-	top: 80px;
-	right: 260px;
-	position: absolute;
-	animation: card2move 2s 2s forwards;
-}
-
-.card2_f {
-	top: 550px;
-	right: 600px;
-	position: absolute;
-}
-
-@keyframes card2move {
-	from {top: 80px;}
-	to {top: 550px;
-	right: 600px;
-	transform: rotate(180deg);}
-}
-
-.turncard2_b {
-	animation: turncard_b 1s 10s forwards;
-}
-
-.turncard2_f {
-	transform: rotateY(270deg);
-	animation: turncard_f 1s 10.8s forwards;
-}
-
-/*This is the movement for left card dealer side*/
-.card3 {
-	top: 80px;
-	right: 260px;
-	position: absolute;
-	animation: card3move 2s 4s forwards;
-}
-
-@keyframes card3move {
-	from {top: 80px;}
-	to {top: 60px;
-	right: 900px;
-	transform: rotate(180deg);}
-}
 	
-/*This is the movement and flip for right card dealer side*/
-.card4_b {
-	top: 80px;
-	right: 260px;
-	position: absolute;
-	animation: card4move 2s 6s forwards;
-}
-
-.card4_f {
+/*This is for right card dealer side*/
+.card4 {
 	top: 60px;
 	right: 600px;
 	position: absolute;
 }
 
-@keyframes card4move {
+/* This is for the Final Hit card */
+.card5_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card5 2s forwards;
+}
+
+.card5_f {
+	top: 550px;
+	right: 1200px;
+	position: absolute;
+}
+
+@keyframes card5 {
 	from {top: 80px;}
-	to {top: 60px;
-	right: 600px;
+	to {top: 550px;
+	right: 1200px;
 	transform: rotate(180deg);}
 }
 
-.turncard4_b {
+.turncard5_b {
+	animation: turncard_b 1s 2s forwards;
+}
+
+.turncard5_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 2.8s forwards;
+}
+
+/*This is for the Final Dealer card */
+.card6_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card6 2s 10s forwards;
+}
+
+.card6_f {
+	top: 60px;
+	right: 1200px;
+	position: absolute;
+}
+
+@keyframes card6 {
+	from {top: 80px;}
+	to {top: 60px;
+	right: 1200px;
+	transform: rotate(180deg);}
+}
+
+.turncard6_b {
 	animation: turncard_b 1s 12s forwards;
 }
 
-.turncard4_f {
+.turncard6_f {
 	transform: rotateY(270deg);
 	animation: turncard_f 1s 12.8s forwards;
 }
 
-/* The Card Flip */
+/* Flip Rules */
 @keyframes turncard_b {
 	from {transform: rotateY(0deg);}
 	to {transform: rotateY(90deg);}
@@ -144,7 +136,6 @@ div.deck_card4 {
 	to {transform: rotateY(360deg);}
 }
 
-/* This is for the example talking */
 .dealerWindow {
 	background-image:url("../imgs/bush.png");
 	width: 250px;
@@ -168,7 +159,7 @@ div.deck_card4 {
 
 .workpls {
 	vertical-align: middle;
-	animation: talkawhile 7s 14s forwards;
+	animation: talkawhile 7s 7s forwards;
 }
 
 @keyframes talkawhile {
@@ -176,16 +167,16 @@ div.deck_card4 {
 	99% { opacity: 0; }
 	100% { opacity: 1; }
 }
-/* Ends here */
-
-
 .Dtalk {
-	
+	border: 2px solid white;
 	opacity: 0;
-	
-	animation: talk 5s 14s forwards;
+	animation: talk 1s 7s forwards;
 }
 
+.Ptalk {
+	opacity: 0;
+	animation: talk 1s 12s forwards;
+}
 #playerWindow{
 	background-image:url("../imgs/moroccan-flower-dark.png");
 	bottom:40px;
@@ -193,23 +184,17 @@ div.deck_card4 {
 	width:250px;
 	position:absolute;
 	border:2px solid white;
-	
-}
-.Ptalk {
-	
-	opacity: 0;
-	animation: talk 1s 18s forwards;
 }
 
 .Choice {
 	bottom: 20px;
-	right: 300px;
-	width: 200px;
+	right: 200px;
+	width: 300px;
 	height: auto;
 	border: 2px solid white;
 	opacity: 0;
 	position: absolute;
-	animation: talk 1s 22s forwards;
+	animation: talk 1s 11s forwards;
 }
 
 @keyframes talk {

@@ -5,9 +5,77 @@
 	<title>It's the Second Hand</title>
 	
 	<!-- CSS linked -->
-	<link rel="stylesheet" type="text/css" href="./css/hand1.css">
+	<link rel="stylesheet" type="text/css" href="./css/hand2.css">
 </head>
 <body>
-	Get Your work done please
+	
+	<!-- Can be replaced by a single image of a deck -->
+	<div class="deck_card1"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card2"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card3"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card4"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	
+	<!-- Player card on the left -->
+	<div class="card1_f">
+		<img class="turncard1_f" src="./imgs/hearts_10.png" alt="Player card left">
+	</div>
+	<div class="card1_b">
+		<img class="turncard1_b" src="./imgs/card_back_red.png" alt="card back">
+	</div>
+	
+	<!-- Player card on the right -->
+	<div class="card2_f">
+		<img class="turncard2_f" src="./imgs/spades_2.png" alt="Player card right">
+	</div>
+	<div class="card2_b">
+		<img class="turncard2_b" src="./imgs/card_back_red.png" alt="card back">
+	</div>
+	
+	<!-- Dealer card on the left -->
+	<div class="card3">
+		<img src="./imgs/card_back_red.png" alt="card back">
+	</div>
+	
+	<!-- Dealer card on the right -->
+	<div class="card4_f">
+		<img class="turncard4_f" src="./imgs/hearts_ace.png" alt="Dealer card right">
+	</div>
+	<div class="card4_b">
+		<img class="turncard4_b" src="./imgs/card_back_red.png" alt="card back">
+	</div>
+	
+	<!-- Dealer asks if you want to hit or stand -->
+	<div class="dealerWindow">
+		<div class="standing">
+		<img src="./imgs/StandingDealer.gif" class="workpls" alt="dealer pic">
+		</div>
+		<div class="talking">
+		<img src="./imgs/TalkingDealer.gif" style="vertical-align:middle;" alt="dealer pic">
+		</div>
+		<div class="textWindow">
+			<div class="Dtalk">
+			<p>Dealer: Feeling Lucky ? This is just an animated web page. It's not like there's anything at stake here.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- Player makes a comment on his hand -->
+	<div id="playerWindow">
+		<div class="Ptalk">
+			<p>Player: Hmm, I'm not sure what's the best option here, but I might have already lost.</p>
+		</div>
+	</div>
+	
+	<!-- User makes a decision on what he will do -->
+	<div class="Choice">
+		<div class="textWindow">
+		<p>
+			Choose to hit: <a href="./hand2_hit.html"><input type="submit" value="Hit"/></a> <br>
+			Choose to stand: <a href="./hand2_stand.html"><input type="submit" value="Stand"/></a>
+		</p>
+		</div>
+	</div>
 </body>
 </html>

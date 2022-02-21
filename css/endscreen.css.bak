@@ -1,0 +1,63 @@
+body {
+	background-image:url("../imgs/background3.jpg");
+	color:white;
+}
+
+/*This is the placeholder deck made of a bunch of images*/
+div.deck_card1 {
+	top: 20px;
+    right: 200px;
+	position: absolute;
+}
+
+div.deck_card2 {
+	top: 40px;
+    right: 220px;
+	position: absolute;
+}
+
+div.deck_card3 {
+	top: 60px;
+    right: 240px;
+	position: absolute;
+}
+
+div.deck_card4 {
+	top: 80px;
+    right: 260px;
+	position: absolute;
+}
+
+
+
+/* This is for the example talking */
+.dealerWindow {
+	background-image:url("../imgs/bush.png");
+	width: 250px;
+	position: absolute;
+	left:40px;
+	
+}
+.textWindow {
+	background-image:url("../imgs/moroccan-flower-dark.png");
+	border: 2px solid white;
+	height: 180px;
+	
+}
+/* What I changed */
+
+.workpls {
+	vertical-align: middle;
+
+}
+.welcomeWindow {
+		top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 600px;
+        height: 100px;
+		position: absolute;
+		text-align:center;
+}

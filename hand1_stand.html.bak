@@ -8,6 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="./css/hand1_stand.css">
 </head>
 <body>
+
+<!-- Can be replaced by a single image of a deck -->
+	<div class="deck_card1"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card2"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card3"><img src="./imgs/card_back_red.png" alt="card back"></div>
+	<div class="deck_card4"><img src="./imgs/card_back_red.png" alt="card back"></div>
 	<!-- Player card on the left -->
 	<div class="card1">
 		<img src="./imgs/hearts_7.png" alt="card back">
@@ -21,7 +27,7 @@
 	
 	<!-- Dealer card on the left -->
 	<div class="card3">
-		<img class="turncard3_f" src="./imgs/card_9.png" alt="card back">
+		<img class="turncard3_f" src="./imgs/clubs_9.png" alt="card back">
 	</div>
 	<div class="card3">
 		<img class="turncard3_b" src="./imgs/card_back_red.png" alt="card back">
@@ -34,21 +40,36 @@
 	
 	
 	<!-- Dealer talks about the game state -->
-	<div class="Dtalk">
-		<p>Dealer: ...Why did you do that?</p>
+	<div class="dealerWindow">
+		<div class="standing">
+		<img src="./imgs/StandingDealer.gif" class="workpls" alt="dealer pic">
+		</div>
+		<div class="talking">
+		<img src="./imgs/TalkingDealer.gif" style="vertical-align:middle;" alt="dealer pic">
+		</div>
+		<div class="textWindow">
+			<div class="Dtalk">
+			<p>Dealer:...Why did you do that?</p>
+			</div>
+		</div>
 	</div>
-	
+
 	<!-- Player makes a comment -->
-	<div class="Ptalk">
-		<p>Player: Me and the User thought it would be funny</p>
+	<div id="playerWindow">
+		<div class="Ptalk">
+			<p>Player: Me and the User thought it would be funny</p>
+		</div>
 	</div>
 	
 	<!-- User makes a decision on what he will do -->
-	<div class="Choice">
+
+		<div class="Choice">
+		<div class="textWindow">
 		<p>
 			Let's move to another hand now: <a href="./hand2.html"><input type="submit" value="Move On"/></a> <br>
 			If I want to leave, I should exit the tab.
 		</p>
+		</div>
 	</div>
 </body>
 </html>

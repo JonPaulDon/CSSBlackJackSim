@@ -5,7 +5,7 @@
 	<title>You Hit!</title>
 	
 	<!-- CSS linked -->
-	<link rel="stylesheet" type="text/css" href="./css/hand1_hit.css">
+	<link rel="stylesheet" type="text/css" href="./css/hand2_hit.css">
 </head>
 <body>
 	
@@ -17,17 +17,17 @@
 	
 	<!-- Player card on the left -->
 	<div class="card1">
-		<img src="./imgs/hearts_7.png" alt="Player card left">
+		<img src="./imgs/hearts_10.png" alt="Player card left">
 	</div>
 	
 	<!-- Player card on the right -->
 	<div class="card2">
-		<img src="./imgs/clubs_3.png" alt="Player card right">
+		<img src="./imgs/spades_2.png" alt="Player card right">
 	</div>
 	
 	<!-- Final Player Card after Hit -->
 	<div class="card5_f">
-		<img class="turncard5_f" src="./imgs/clubs_ace.png" alt="Player card after hit">
+		<img class="turncard5_f" src="./imgs/clubs_queen.png" alt="Player card hit">
 	</div>
 	<div class="card5_b">
 		<img class="turncard5_b" src="./imgs/card_back_red.png" alt="card back">
@@ -36,7 +36,7 @@
 	
 	<!-- Dealer card on the left -->
 	<div class="card3">
-		<img class="turncard3_f" src="./imgs/clubs_9.png" alt="Dealer card left">
+		<img class="turncard3_f" src="./imgs/diamonds_10.png" alt="Dealer card left">
 	</div>
 	<div class="card3">
 		<img class="turncard3_b" src="./imgs/card_back_red.png" alt="card back">
@@ -44,17 +44,18 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4">
-		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="Dealer card right">
+		<img class="turncard4_f" src="./imgs/hearts_ace.png" alt="Dealer card left">
 	</div>
 	
 	<!-- Dealer Bust -->
+	<!--
 	<div class="card6_f">
-		<img class="turncard6_f" src="./imgs/hearts_9.png" alt="Dealer card hit">
+		<img class="turncard6_f" src="./imgs/hearts_9.png" alt="card back">
 	</div>
 	<div class="card6_b">
 		<img class="turncard6_b" src="./imgs/card_back_red.png" alt="card back">
 	</div>
-	
+	-->
 	
 	<!-- Dealer talks about the game state -->
 
@@ -67,7 +68,7 @@
 		</div>
 		<div class="textWindow">
 			<div class="Dtalk">
-			<p>Dealer: 21 eh? Only way you can lose now is if I somehow get that, so let's see if that happens.</p>
+			<p>Dealer: I win! I have 21!</p>
 			</div>
 		</div>
 	</div>
@@ -76,19 +77,18 @@
 
 	<div id="playerWindow">
 		<div class="Ptalk">
-			<p>Player: Hah. He busted, so looks like it's my win!</p>
+			<p>Player: Darn, maybe I'll have better luck next time</p>
 		</div>
 	</div>
 	
 	<!-- User makes a decision on what he will do -->
 	<div class="Choice">
 		<div class="textWindow">
-			<p>
-				Let's move to another hand now: <a href="./hand2.html"><input type="submit" value="Move On"/></a> <br>
-				If I want to leave, I should exit the tab.
-			</p>
+		<p>
+			Let's move to another hand now: <a href="./hand3.html"><input type="submit" value="Move On"/></a> <br>
+			If I want to leave, I should exit the tab.
+		</p>
 		</div>
 	</div>
-	
 </body>
 </html>

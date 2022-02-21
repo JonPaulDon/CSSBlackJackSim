@@ -17,7 +17,7 @@
 	
 	<!-- Player card on the left -->
 	<div class="card1_f">
-		<img class="turncard1_f" src="./imgs/hearts_7.png" alt="card back">
+		<img class="turncard1_f" src="./imgs/hearts_7.png" alt="Player card left">
 	</div>
 	<div class="card1_b">
 		<img class="turncard1_b" src="./imgs/card_back_red.png" alt="card back">
@@ -25,7 +25,7 @@
 	
 	<!-- Player card on the right -->
 	<div class="card2_f">
-		<img class="turncard2_f" src="./imgs/clubs_3.png" alt="card back">
+		<img class="turncard2_f" src="./imgs/clubs_3.png" alt="Player card right">
 	</div>
 	<div class="card2_b">
 		<img class="turncard2_b" src="./imgs/card_back_red.png" alt="card back">
@@ -38,7 +38,7 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4_f">
-		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="card back">
+		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="Dealer card right">
 	</div>
 	<div class="card4_b">
 		<img class="turncard4_b" src="./imgs/card_back_red.png" alt="card back">
@@ -62,17 +62,20 @@
 	
 	
 	<!-- Player makes a comment on his hand -->
-	
-	<div class="Ptalk">
-		<p>Player: He's right, a hit makes the most amount of sense right now. But it might be funny to just stand for no real reason. What do you think player?</p>
+	<div id="playerWindow">
+		<div class="Ptalk">
+			<p>Player: He's right, a hit makes the most amount of sense right now. But it might be funny to just stand for no real reason. What do you think player?</p>
+		</div>
 	</div>
 	
 	<!-- User makes a decision on what he will do -->
 	<div class="Choice">
+		<div class="textWindow">
 		<p>
 			Let's be reasonable: <a href="./hand1_hit.html"><input type="submit" value="Hit"/></a> <br>
 			It would be funny: <a href="./hand1_stand.html"><input type="submit" value="Stand"/></a>
 		</p>
+		</div>
 	</div>
 </body>
 </html>

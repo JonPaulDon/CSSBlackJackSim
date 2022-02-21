@@ -98,7 +98,7 @@ div.deck_card4 {
 
 .workpls {
 	vertical-align: middle;
-	animation: talkawhile 5s 10s forwards;
+	animation: talkawhile 7s 14s forwards;
 }
 
 @keyframes talkawhile {
@@ -109,13 +109,13 @@ div.deck_card4 {
 .Dtalk {
 	border: 2px solid white;
 	opacity: 0;
-	
-	animation: talk 1s 10s forwards;
+
+	animation: talk 1s 3s forwards;
 }
 
 .Ptalk {
 	opacity: 0;
-	animation: talk 1s 16s forwards;
+	animation: talk 1s 7s forwards;
 }
 #playerWindow{
 	background-image:url("../imgs/moroccan-flower-dark.png");
@@ -135,7 +135,7 @@ div.deck_card4 {
 	border: 2px solid white;
 	opacity: 0;
 	position: absolute;
-	animation: talk 1s 20s forwards;
+	animation: talk 1s 11s forwards;
 }
 
 @keyframes talk {

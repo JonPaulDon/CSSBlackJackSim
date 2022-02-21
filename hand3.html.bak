@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>It's the First Hand</title>
+	<title>It's the Last Hand</title>
 	
 	<!-- CSS linked -->
-	<link rel="stylesheet" type="text/css" href="./css/hand1.css">
+	<link rel="stylesheet" type="text/css" href="./css/hand3.css">
 </head>
 <body>
 	
@@ -17,7 +17,7 @@
 	
 	<!-- Player card on the left -->
 	<div class="card1_f">
-		<img class="turncard1_f" src="./imgs/hearts_7.png" alt="card back">
+		<img class="turncard1_f" src="./imgs/spades_ace_simple.png" alt="Left card front">
 	</div>
 	<div class="card1_b">
 		<img class="turncard1_b" src="./imgs/card_back_red.png" alt="card back">
@@ -25,7 +25,7 @@
 	
 	<!-- Player card on the right -->
 	<div class="card2_f">
-		<img class="turncard2_f" src="./imgs/clubs_3.png" alt="card back">
+		<img class="turncard2_f" src="./imgs/spades_jack.png" alt="Right card front">
 	</div>
 	<div class="card2_b">
 		<img class="turncard2_b" src="./imgs/card_back_red.png" alt="card back">
@@ -38,7 +38,7 @@
 	
 	<!-- Dealer card on the right -->
 	<div class="card4_f">
-		<img class="turncard4_f" src="./imgs/diamonds_9.png" alt="card back">
+		<img class="turncard4_f" src="./imgs/clubs_10.png" alt="Dealer card right">
 	</div>
 	<div class="card4_b">
 		<img class="turncard4_b" src="./imgs/card_back_red.png" alt="card back">
@@ -54,7 +54,7 @@
 		</div>
 		<div class="textWindow">
 			<div class="Dtalk">
-			<p>Dealer: Doesn't look too good. I'm guessing you'll probably want to hit, but I'll ask for posterities sake. You gonna Hit or Stand?</p>
+			<p>Dealer: Nice draw! I hope I can match your blackjack!</p>
 			</div>
 		</div>
 	</div>
@@ -64,7 +64,7 @@
 	<!-- Player makes a comment on his hand -->
 	<div id="playerWindow">
 		<div class="Ptalk">
-			<p>Player: He's right, a hit makes the most amount of sense right now. But it might be funny to just stand for no real reason. What do you think player?</p>
+			<p>Player: I have no reason to stand! I've got this game in the bag!</p>
 		</div>
 	</div>
 	
