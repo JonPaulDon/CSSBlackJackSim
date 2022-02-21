@@ -1,0 +1,184 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+/*This is the placeholder deck made of a bunch of images*/
+div.deck_card1 {
+	top: 20px;
+    right: 200px;
+	position: absolute;
+}
+
+div.deck_card2 {
+	top: 40px;
+    right: 220px;
+	position: absolute;
+}
+
+div.deck_card3 {
+	top: 60px;
+    right: 240px;
+	position: absolute;
+}
+
+div.deck_card4 {
+	top: 80px;
+    right: 260px;
+	position: absolute;
+}
+
+/*This is the movement and flip of the left card player side*/
+.card1_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card1move 2s forwards;
+}
+
+.card1_f {
+	top: 400px;
+	right: 800px;
+	position: absolute;
+}
+
+@keyframes card1move {
+	from {top: 80px;}
+	to {top: 400px;
+	right: 800px;
+	transform: rotate(180deg);}
+}
+	
+.turncard1_b {
+	animation: turncard_b 1s 8s forwards;
+}
+
+.turncard1_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 8.8s forwards;
+}
+
+/*This is the movement and flip of the right card player side*/
+.card2_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card2move 2s 2s forwards;
+}
+
+.card2_f {
+	top: 400px;
+	right: 600px;
+	position: absolute;
+}
+
+@keyframes card2move {
+	from {top: 80px;}
+	to {top: 400px;
+	right: 600px;
+	transform: rotate(180deg);}
+}
+
+.turncard2_b {
+	animation: turncard_b 1s 10s forwards;
+}
+
+.turncard2_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 10.8s forwards;
+}
+
+/*This is the movement for left card dealer side*/
+.card3 {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card3move 2s 4s forwards;
+}
+
+@keyframes card3move {
+	from {top: 80px;}
+	to {top: 100px;
+	right: 800px;
+	transform: rotate(180deg);}
+}
+	
+/*This is the movement and flip for right card dealer side*/
+.card4_b {
+	top: 80px;
+	right: 260px;
+	position: absolute;
+	animation: card4move 2s 6s forwards;
+}
+
+.card4_f {
+	top: 100px;
+	right: 600px;
+	position: absolute;
+}
+
+@keyframes card4move {
+	from {top: 80px;}
+	to {top: 100px;
+	right: 600px;
+	transform: rotate(180deg);}
+}
+
+.turncard4_b {
+	animation: turncard_b 1s 12s forwards;
+}
+
+.turncard4_f {
+	transform: rotateY(270deg);
+	animation: turncard_f 1s 12.8s forwards;
+}
+
+/* The Card Flip */
+@keyframes turncard_b {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(90deg);}
+}
+
+@keyframes turncard_f {
+	from {transform: rotateY(270deg);}
+	to {transform: rotateY(360deg);}
+}
+
+/* This is for the example talking */
+.Dtalk {
+	top: 20px;
+	left: 200px;
+	width: 200px;
+	height: auto;
+	border: 2px solid white;
+	opacity: 0;
+	position: absolute;
+	animation: talk 1s 14s forwards;
+}
+
+.Ptalk {
+	bottom: 20px;
+	left: 200px;
+	width: 200px;
+	height: auto;
+	border: 2px solid white;
+	opacity: 0;
+	position: absolute;
+	animation: talk 1s 18s forwards;
+}
+
+.Choice {
+	bottom: 20px;
+	right: 300px;
+	width: 200px;
+	height: auto;
+	border: 2px solid white;
+	opacity: 0;
+	position: absolute;
+	animation: talk 1s 22s forwards;
+}
+
+@keyframes talk {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}

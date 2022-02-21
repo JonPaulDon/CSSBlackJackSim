@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>You Hit!</title>
+	
+	<!-- CSS linked -->
+	<link rel="stylesheet" type="text/css" href="./css/hand1_hit.css">
+</head>
+<body>
+	
+	<!-- Can be replaced by a single image of a deck -->
+	<div class="deck_card1"><img src="./imgs/card_back.png" alt="card back"></div>
+	<div class="deck_card2"><img src="./imgs/card_back.png" alt="card back"></div>
+	<div class="deck_card3"><img src="./imgs/card_back.png" alt="card back"></div>
+	<div class="deck_card4"><img src="./imgs/card_back.png" alt="card back"></div>
+	
+	<!-- Player card on the left -->
+	<div class="card1">
+		<img src="./imgs/card_7.png" alt="card back">
+	</div>
+	
+	<!-- Player card on the right -->
+	<div class="card2">
+		<img src="./imgs/card_3.png" alt="card back">
+	</div>
+	
+	<!-- Final Player Card after Hit -->
+	<div class="card5_f">
+		<img class="turncard5_f" src="./imgs/card_ace.png" alt="card back">
+	</div>
+	<div class="card5_b">
+		<img class="turncard5_b" src="./imgs/card_back.png" alt="card back">
+	</div>
+	
+	
+	<!-- Dealer card on the left -->
+	<div class="card3">
+		<img class="turncard3_f" src="./imgs/card_9.png" alt="card back">
+	</div>
+	<div class="card3">
+		<img class="turncard3_b" src="./imgs/card_back.png" alt="card back">
+	</div>
+	
+	<!-- Dealer card on the right -->
+	<div class="card4">
+		<img class="turncard4_f" src="./imgs/card_9.png" alt="card back">
+	</div>
+	
+	<!-- Dealer Bust -->
+	<div class="card6_f">
+		<img class="turncard6_f" src="./imgs/card_9.png" alt="card back">
+	</div>
+	<div class="card6_b">
+		<img class="turncard6_b" src="./imgs/card_back.png" alt="card back">
+	</div>
+	
+	
+	<!-- Dealer talks about the game state -->
+	<div class="Dtalk">
+		<p>Dealer: 21 eh? Only way you can lose now is if I somehow get that, so let's see if that happens.</p>
+	</div>
+	
+	<!-- Player makes a comment -->
+	<div class="Ptalk">
+		<p>Player: Hah. He busted, so looks like it's my win!</p>
+	</div>
+	
+	<!-- User makes a decision on what he will do -->
+	<div class="Choice">
+		<p>
+			Let's move to another hand now: <a href="./hand2.html"><input type="submit" value="Move On"/></a> <br>
+			If I want to leave, I should exit the tab.
+		</p>
+	</div>
+</body>
+</html>
